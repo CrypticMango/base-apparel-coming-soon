@@ -71,6 +71,11 @@ span {
 	right: 40px;
 }
 
+#validation-message {
+	color: var(--soft-red);
+	text-align: center;
+}
+
 /*end of form styling*/
 
 .attribution {
