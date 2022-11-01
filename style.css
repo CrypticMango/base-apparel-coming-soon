@@ -47,16 +47,28 @@ span {
 
 /*form styling*/
 
+.form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
 .email-field {
 	padding: 15px;
-	width: 250px;
-	margin-left: 30px;
+	width: 240px;
 	border: 1px solid var(--dark-grayish-red);
 	border-radius: 30px;
+	margin-left: 32px;
 }
 
 .submit-button {
-	background-color: black;
+	background: var(--gradient-dark);
+	padding: 14px 25px;
+	border-radius: 30px;
+	position: relative;
+	top: 19px;
+	right: 40px;
 }
 
 /*end of form styling*/
