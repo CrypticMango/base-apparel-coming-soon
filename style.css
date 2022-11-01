@@ -3,8 +3,8 @@
 	--soft-red: hsl(0, 93%, 68%);
 	--dark-grayish-red: hsl(0, 6%, 24%);
 	--gradient-light: linear-gradient(135deg, #ffe5e5, #ffffff);
-	--gradient-dark: linear-gradient(135deg) hsl(0, 80%, 86%),
-		hsl(0, 74%, 74%);
+	--gradient-dark: linear-gradient(135deg, hsl(0, 80%, 86%),
+		hsl(0, 74%, 74%));
 }
 
 body {
@@ -19,6 +19,39 @@ body {
 	min-height: 100vh;
 }
 
+h1 {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	margin: 50px 0px 0px 0px;
+}
+
+span {
+	color: var(--desaturated-red);
+	font-weight: 300;
+}
+
+.top-logo {
+	width: 100px;
+	margin: 30px;
+}
+
+.blurb {
+	text-align: center;
+	color: var(--desaturated-red);
+	padding: 0px 30px;
+	font-size: 14px;
+	line-height: 1.3rem;
+}
+
+/*form styling*/
+
+.submit-button {
+	background-color: black;
+}
+/*end of form styling*/
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
@@ -26,3 +59,4 @@ body {
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
