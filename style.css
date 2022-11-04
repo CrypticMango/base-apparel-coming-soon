@@ -107,13 +107,13 @@ span {
 	}
 
 	.content-container {
-		padding-left: 80px;
+		padding-left: 170px;
 	}
 
 	.top-logo {
 		width: 140px;
 		position: absolute;
-		padding-left: 80px;
+		padding-left: 170px;
 		margin: 60px 0px 0px 0px;
 	}
 
@@ -142,5 +142,17 @@ span {
 
 	.desktop-pic {
 		display: block;
+	}
+
+	::-webkit-scrollbar {
+		background-color: var(--desaturated-red);	
+	}
+
+	::-webkit-scrollbar-button {
+		background-color: hsl(0, 80%, 86%);
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color:var(--soft-red);
 	}
 }
