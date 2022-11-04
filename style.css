@@ -61,10 +61,15 @@ span {
 .email-field {
 	padding: 15px;
 	width: 240px;
-	border: 1px solid var(--dark-grayish-red);
+	border: 1px solid hsl(0, 80%, 86%);
 	border-radius: 30px;
 	margin-left: 32px;
 	background-color: var(--gradient-light);
+}
+
+::placeholder {
+	color: hsl(0, 80%, 86%);
+	font-family: "Josefin Sans", sans-serif;
 }
 
 .submit-button {
@@ -79,9 +84,14 @@ span {
 #validation-message {
 	color: var(--soft-red);
 	text-align: center;
+	font-style: italic;
 }
 
 /*end of form styling*/
+
+footer {
+	text-align: center;
+}
 
 .attribution {
 	font-size: 11px;
@@ -91,9 +101,19 @@ span {
 	color: hsl(228, 45%, 44%);
 }
 
+.fa-github {
+	color: var(--desaturated-red);
+	font-size: 30px;
+	margin: 20px;
+}
+
 /*desktop view styling*/
 
 @media (min-width:700px) {
+	body {
+		background-image: url(/images/bg-pattern-desktop.svg);
+	}
+	
 	h1 {
 		text-align: left;
 		padding-right: 100px;
@@ -119,7 +139,7 @@ span {
 
 	.blurb {
 		text-align: left;
-		padding-right: 350px;
+		padding-right: 270px;
 		padding-left: 0px;
 	}
 
@@ -129,11 +149,15 @@ span {
 
 	.email-field {
 		margin: 0;
+		padding: 20px;
+		font-size: 17px;
+		width: 320px;
 	}
 
 	#validation-message {
 		text-align: left;
 		margin-left: 20px;
+		font-style: italic;
 	}
 
 	.mobile-pic {
