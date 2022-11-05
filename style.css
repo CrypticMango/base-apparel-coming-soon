@@ -80,7 +80,7 @@ span {
 	border-radius: 30px;
 	position: relative;
 	top: 19px;
-	right: 40px;
+	right: 50px;
 }
 
 #validation-message {
@@ -90,7 +90,9 @@ span {
 
 input:invalid {
 	outline: 2px solid red;
+	background: url(/images/icon-error.svg) no-repeat 77%;
 }
+
 
 /*end of form styling*/
 
@@ -103,7 +105,7 @@ footer {
 	text-align: center;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: var(--desaturated-red);
 }
 
 .fa-github {
@@ -163,10 +165,11 @@ footer {
 	}
 
 	.submit-button {
-		padding: 20px 45px 20px 45px;
+		padding: 22px 45px 22px 45px;
 		position: relative;
-		top: 25px;
+		top: 26px;
 		left: -80px;
+		border-radius: 50px;
 	}
 
 	#validation-message {
